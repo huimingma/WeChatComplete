@@ -1,0 +1,77 @@
+
+/* 不加page无法全屏 */
+page {
+    height: 100%;
+  }
+   
+  .view {
+    width: 100%;
+    height: 100%;
+  }
+   
+  map {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+  }
+  
+  .searchbar-result{
+    margin-top: 0;
+    font-size: 14px;
+}
+.searchbar-result:before{
+    display: none;
+}
+.weui-cell{
+    padding: 12px 15px 12px 35px;
+}
+.reTextSm{
+  font-size: 23rpx
+}
+
+.reTextLa{
+  font-size:30rpx;
+}
+
+.CovImg{
+  display: flex;
+  background-color: #c18484;
+  margin-bottom: 0rpx;
+}
+.img1{
+ 
+  width: 80rpx;
+  height: 80rpx;
+  
+}
+
+.imgView2{
+  margin-left: 85rpx;
+}
+.imgView1{
+  margin-left: 10rpx;
+}
+
+.btnText{
+  font-size: 25rpx;
+  text-align: center;
+}
+
+.pbImg{
+  width: 60rpx;
+  height: 60rpx;
+  margin-bottom: 30rpx;
+}
+
+.cover{
+  position: relative;
+  
+  margin-top: 400px;
+  margin-left: 360px;
+}
+.coverText{
+  position: relative;
+  
+  
+  margin-left: 300px;
+}
